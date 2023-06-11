@@ -10,7 +10,7 @@
                 https://TrevorHProgramming.github.io
             </sparkle:releaseNotesLink>
             <pubDate>Wed, 07 Jun 2023 12:30:00 +0100</pubDate>
-            <enclosure url="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe"
+            <enclosure url="https://TrevorHProgramming.github.io/TF04Converter/ConverterUpdater.exe"
                        sparkle:dsaSignature="MD0CHBwk5t4kj0VVbwkcWVRlf9UhiLaZ/mn3jje0mmQCHQDOjmoa3+m3goEKAlzF
 CVRYjNJD/Pnkf+0pFVt5"
                        sparkle:version="0.6.3.1"
