@@ -2,30 +2,18 @@
 
 <HEAD>
 
-<TITLE>Leader-1 Test Site</TITLE>
+<TITLE>Leader-1 Host Site</TITLE>
 
 </HEAD>
 
-<BODY BGCOLOR="FFFFFF">
+<BODY BGCOLOR="9794b5">
 
 <HR>
 
-<a href="trevorhprogramming.github.io">Self-reference</a>
+<H2>Home of Transformers (2004) (PS2) Hacking Tools</H2>
 
-is a link to this site
-
-<H1>This is a Header</H1>
-
-<H2>This is a Medium Header</H2>
-
-<P> This is a new paragraph!
-
-<P> <B>This is a new paragraph!</B>
-
-<BR> <B><I>This is a new sentence without a paragraph break, in bold italics.</I></B>
+<P> Tools currently in development will be using this site for their automatic updates. Ideally, this site will also become a usable interface for the Leader-1 Discord bot. 
 
 <HR>
 
-</BODY>
-
-</HTML> 
+ 
