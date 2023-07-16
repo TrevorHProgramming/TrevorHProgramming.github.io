@@ -13,7 +13,7 @@
             <enclosure url="https://TrevorHProgramming.github.io/TF04Converter/ConverterUpdater.exe"
                        sparkle:dsaSignature="MDwCHA1HBixNpg+7MDWw7IS8hoyt7h98xChqm8YwTXcCHAt9tZMjAUbn8rLMHozV
 yeUwRh11cJJhouZ7EU0="
-                       sparkle:version="0.6.3.1"
+                       sparkle:version="0.6.3.2"
                        length="0"
                        type="application/octet-stream" />
         </item>
