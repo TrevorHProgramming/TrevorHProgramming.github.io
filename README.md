@@ -16,7 +16,7 @@
 
 <HR>
 
-<a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter_v0-6-3-0.exe">Download the most recent version here</a>
+<a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">Download the most recent version here</a>
 
 <HR>
 
