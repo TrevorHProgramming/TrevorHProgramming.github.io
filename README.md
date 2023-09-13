@@ -16,7 +16,55 @@
 
 <HR>
 
-<a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">Download the most recent version here</a>
+Downloads:
+If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-6-5-0">Download</a>
+If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">download the most recent version here</a>
+
+<HR>
+
+09/13/2023
+<H3>TF2004 File Converter v0.6.5.0 is here</H3>
+
+New Feature(s):
+The program can now read and export MESH.VBIN files. Huge thanks to Discord member bbatts for solving the index array issue.
+
+Known Issues:
+The program will attempt to assign textures based on the data in the corresponding GRAPH.VBIN file, but this system needs work. Most levels will have no textures assigned, while some will have incorrect textures.
+
+<HR>
+
+09/05/2023
+<H3>TF2004 File Converter v0.6.4.2 is here</H3>
+
+New Feature(s):
+Some functions now have logging enabled on the right sidebar.
+.DAE files now expect .PNG textures on export.
+
+Bugfixe(s):
+Program will no longer freeze when reading models with vlLodSwitchers (Cybertron towers, build 3944 level .vbins)
+When loading a vbin with no LODs, the dropdown will automatically select "1".
+Imported images with indexed color data/color palettes will now export at the correct bit depth. 
+
+<HR>
+
+08/22/2023
+<H3>TF2004 File Converter v0.6.4.1 is here</H3>
+
+New Feature(s):
+Added a "clear files" option on the menu bar. This will clear out all currently loaded files.
+
+Bugfixe(s):
+Corrected version number. The version number is also shown in the title bar.
+Mipmaps now properly swizzle.
+The palette table now properly updates when converting an image from color to index.
+Fixed a crash related to mipmap generation 
+
+<HR>
+
+08/20/2023
+<H3>TF2004 File Converter v0.6.4 is here</H3>
+
+Changed the ITF system to use Qt's QImage system. This allows importing and exporting for most common image formats. With this update, there is now a complete toolchain for ITF creation. 
 
 <HR>
 
