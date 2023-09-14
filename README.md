@@ -22,6 +22,16 @@ If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/T
 
 <HR>
 
+09/14/2023
+<H3>TF2004 File Converter v0.6.5.1 is here</H3>
+
+Bugfixes:
+MESH.VBIN textures are correctly flipped like normal VBINS.
+VBIN files no longer attempt to read animation data (this is still a work in progress).
+Normals for VBIN model exports should now be correct. 
+
+<HR>
+
 09/13/2023
 <H3>TF2004 File Converter v0.6.5.0 is here</H3>
 
