@@ -16,9 +16,21 @@
 
 <HR>
 
-Downloads:</br>
-If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-6-5-0">Download</a></br>
-If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">download the most recent version here</a></br>
+Downloads:<br>
+If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-6-5-0">Download</a><br>
+If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">download the most recent version here</a><br>
+
+<HR>
+
+09/21/2023
+<H3>TF2004 File Converter v0.6.5.2 is here</H3>
+
+New Features:
+Textures now work on all Graph/Mesh.VBIN files.
+Mesh sections for Graph/Mesh.VBIN files now export with names.
+
+Known Issues:
+The normals on all VBIN exports are almost correct, but not quite. These will need manual correction after export. 
 
 <HR>
 
@@ -47,12 +59,12 @@ The program will attempt to assign textures based on the data in the correspondi
 <H3>TF2004 File Converter v0.6.4.2 is here</H3>
 
 New Feature(s):
-Some functions now have logging enabled on the right sidebar.</br>
+Some functions now have logging enabled on the right sidebar.<br>
 .DAE files now expect .PNG textures on export.
 
 Bugfixe(s):
-Program will no longer freeze when reading models with vlLodSwitchers (Cybertron towers, build 3944 level .vbins)</br>
-When loading a vbin with no LODs, the dropdown will automatically select "1".</br>
+Program will no longer freeze when reading models with vlLodSwitchers (Cybertron towers, build 3944 level .vbins)<br>
+When loading a vbin with no LODs, the dropdown will automatically select "1".<br>
 Imported images with indexed color data/color palettes will now export at the correct bit depth. 
 
 <HR>
@@ -64,9 +76,9 @@ New Feature(s):
 Added a "clear files" option on the menu bar. This will clear out all currently loaded files.
 
 Bugfixe(s):
-Corrected version number. The version number is also shown in the title bar.</br>
-Mipmaps now properly swizzle.</br>
-The palette table now properly updates when converting an image from color to index.</br>
+Corrected version number. The version number is also shown in the title bar.<br>
+Mipmaps now properly swizzle.<br>
+The palette table now properly updates when converting an image from color to index.<br>
 Fixed a crash related to mipmap generation 
 
 <HR>
@@ -97,12 +109,12 @@ Added auto-updating. Future versions should be downloaded from this site automat
 
 Some bugfixes for the previous version.
 Fixes:
-VBIN models with sections that are not rendered at lower LODs would crash the program. Now these will instead render at the lowest available level. Also technically a known issue as this is inaccurate to how the model should be. </br>
-256 color textures have their palette issues resolved. Still a known issue: there are some textures that are not swizzled, but the program assumes that all ITF files are. There is likely a bit somewhere to indicate whether to swizzle the image or not. </br>
-Model sections with a . in the name will be culled to just the name section after the ".". This will allow the DAE format to properly assign textures to these sections. </br>
+VBIN models with sections that are not rendered at lower LODs would crash the program. Now these will instead render at the lowest available level. Also technically a known issue as this is inaccurate to how the model should be. <br>
+256 color textures have their palette issues resolved. Still a known issue: there are some textures that are not swizzled, but the program assumes that all ITF files are. There is likely a bit somewhere to indicate whether to swizzle the image or not. <br>
+Model sections with a . in the name will be culled to just the name section after the ".". This will allow the DAE format to properly assign textures to these sections. <br>
 
 Known issues:
-Files with long extensions (ex .MESH.VBIN) will only read the last extension. This should be a fairly easy fix I just forgot about it and don't have time today</br>
+Files with long extensions (ex .MESH.VBIN) will only read the last extension. This should be a fairly easy fix I just forgot about it and don't have time today<br>
 Database files still don't work.
 
 <HR>
@@ -113,15 +125,15 @@ Database files still don't work.
 Lots of bugfixes and a couple new features.
 
 New features:
-Exporting the file you have selected will have that file chosen by default on the export popup if it's the right file type.</br>
+Exporting the file you have selected will have that file chosen by default on the export popup if it's the right file type.<br>
 Bulk importer and exporter for VBIN and ITF files. Select a file path and the program will do the rest.
 
 Bug fixes:
-Attempting to export a texture while a different texture is selected will no longer crash the program.</br>
-Cancelling a file export should actually cancel it, preventing further prompts.</br>
-Loading multiple files with the same file name will give them a numbered disambiguation in the file list and export options.</br>
-GeometrySets will export all position data instead of just the first set's.</br>
-BDB files should now load properly.</br>
+Attempting to export a texture while a different texture is selected will no longer crash the program.<br>
+Cancelling a file export should actually cancel it, preventing further prompts.<br>
+Loading multiple files with the same file name will give them a numbered disambiguation in the file list and export options.<br>
+GeometrySets will export all position data instead of just the first set's.<br>
+BDB files should now load properly.<br>
 UVs should be properly flipped (let me know if this is actually fixed correctly)
 
 Known issues:
@@ -144,7 +156,7 @@ Please let me know of any issues or suggestions.
 <H3>TF2004 File Converter v0.5.4.1 is here</H3>
 
 Bugfixes: 
-Meshes that have multiple textures should now export properly to DAE (This was done a while ago but I forgot to upload the updated build, oops)</br>
+Meshes that have multiple textures should now export properly to DAE (This was done a while ago but I forgot to upload the updated build, oops)<br>
 BMP files should now be correctly oriented on export. This hasn't been as thoroughly tested as it could be so let me know if any textures don't work.
 
 5.4's known issues are still present. I'm doing some work in the background to improve the UI design which will also resolve those issues.
@@ -155,16 +167,16 @@ BMP files should now be correctly oriented on export. This hasn't been as thorou
 <H3>TF2004 File Converter v0.5.4 is here</H3>
 
 New features:
-Can now export VBIN models to .DAE. These DAE files will reference the appropriate textures for that model and will be properly mapped when imported to a program like Blender. </br>
+Can now export VBIN models to .DAE. These DAE files will reference the appropriate textures for that model and will be properly mapped when imported to a program like Blender. <br>
 Can now correctly export ITF files to BMP. These will be properly unswizzled and should line up correctly on exported DAE models (if they don't, they should only need to be flipped vertically in an image editor)
 
 Bugfixes:
-Can now export most old models and textures.</br>
-Cancelling an export to all file types will no longer crash the program</br>
+Can now export most old models and textures.<br>
+Cancelling an export to all file types will no longer crash the program<br>
 Attempting to save without a loaded file will no longer crash the program.
 
 Known issues:
-Attempting to load an ITF file after a VBIN file will result in a crash. </br>
+Attempting to load an ITF file after a VBIN file will result in a crash. <br>
 Loading a VBIN file after an ITF file will leave the palette table visible.
 
 <HR>
@@ -173,14 +185,14 @@ Loading a VBIN file after an ITF file will leave the palette table visible.
 <H3>TF2004 File Converter v0.5.3 is here.</H3>
 
 New features:
-Added a distance calculator for Amazon warpgates. Enter the X, Y, and Z coordinates of a position on the map and it'll tell you what the closest warpgate is.</br> 
+Added a distance calculator for Amazon warpgates. Enter the X, Y, and Z coordinates of a position on the map and it'll tell you what the closest warpgate is.<br> 
 Loading a VBIN file will show a list of animations for that model. These don't currently do anything.
 
 Bugfixes: 
 Cancelling an export to STL will no longer crash the program
 
 Known issues:
-Cancelling a save for most file types will cause a crash</br>
+Cancelling a save for most file types will cause a crash<br>
 VBIN files in the PICKUPS folder will not load 
 
 <HR>
@@ -189,8 +201,8 @@ VBIN files in the PICKUPS folder will not load
 <H3>TF2004 File Converter v0.5.2 is here.</H3>
 
 Bugfixes: 
-LOD-less models with multiple elements now export correctly</br>
-Models with animation data before their mesh data now read correctly</br>
+LOD-less models with multiple elements now export correctly<br>
+Models with animation data before their mesh data now read correctly<br>
 Scale offsets are now applied before rotation offsets for more accurate exports
 
 <HR>
@@ -202,9 +214,9 @@ Patch notes:
 VBIN offsets are now correct. 
 
 Bugfixes:
-Multi-file outputs weren't working correctly</br>
-VBIN models without LOD levels wouldn't export</br>
-Models with SurfaceProperties version 1 or 3 would not read correctly</br>
+Multi-file outputs weren't working correctly<br>
+VBIN models without LOD levels wouldn't export<br>
+Models with SurfaceProperties version 1 or 3 would not read correctly<br>
 Models with a mesh as their root instead of a scene node wouldn't export
 
 <HR>
@@ -213,8 +225,8 @@ Models with a mesh as their root instead of a scene node wouldn't export
 <H3>TF2004 File Converter v0.5.0 is here.</H3>
 
 Patch notes: 
-Complete overhaul of the VBIN reading system. Read quality should be exactly the same as before, but there's a couple quality of life improvements for both coding and using:</br>
-1. You can now load multiple VBIN files at once. When exporting to STL, it will export the file selected on the dropdown. </br>
+Complete overhaul of the VBIN reading system. Read quality should be exactly the same as before, but there's a couple quality of life improvements for both coding and using:<br>
+1. You can now load multiple VBIN files at once. When exporting to STL, it will export the file selected on the dropdown. <br>
 2. The program should crash less on read fails and instead error out and give an error message. Please let me know if you find files where this happens so I can find out what's up with them. At least one set of models is known to not read, the CybertronTower vbin models in the Cybertron geometry folder, but there are definitely more out there that don't work.
 
 <HR>
@@ -223,10 +235,10 @@ Complete overhaul of the VBIN reading system. Read quality should be exactly the
 <H3>TF2004 File Converter v0.4.4 is here.</H3>
 
 Patch notes: 
-Added a mode indicator and filename label. These display what the current operation mode is (Model, texture, database, etc) and the last opened file. </br>
-Bugfixes for ITF export</br>
-Corrected column labels for ITF palette table</br>
-Added a color preview to the ITF palette table</br>
+Added a mode indicator and filename label. These display what the current operation mode is (Model, texture, database, etc) and the last opened file. <br>
+Bugfixes for ITF export<br>
+Corrected column labels for ITF palette table<br>
+Added a color preview to the ITF palette table<br>
 
 <HR>
 
@@ -234,8 +246,8 @@ Added a color preview to the ITF palette table</br>
 <H3>TF2004 File Converter v0.4.3 is here.</H3>
 
 Patch notes: 
-Can now remove classes in definition files and instances in database files. Addition of new items will be Later</br>
-Can now set an instances values to "Default", causing it to pull the default values from the definition file</br>
+Can now remove classes in definition files and instances in database files. Addition of new items will be Later<br>
+Can now set an instances values to "Default", causing it to pull the default values from the definition file<br>
 a couple misc bugfixes I found along the way. nothing for vbins this update.
 
 <HR>
