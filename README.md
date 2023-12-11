@@ -23,6 +23,15 @@ If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/T
 <HR>
 
 12/11/2023
+<H3>TF2004 File Converter v0.6.5.4 is here</H3>
+
+Fixes:
+Corrected binary output for "Link" and "LinkArray" values.
+
+
+<HR>
+
+12/11/2023
 <H3>TF2004 File Converter v0.6.5.3 is here</H3>
 
 New Features:
