@@ -22,6 +22,20 @@ If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/T
 
 <HR>
 
+12/11/2023
+<H3>TF2004 File Converter v0.6.5.3 is here</H3>
+
+New Features:
+Dictionary (Definition and Database) files can now (mostly) be edited in the tree view. Enum values still have their own edit button.
+
+Fixes:
+Dictionary file exports should be more reliably accurate than before.
+
+Known Issues:
+Some of the "Array" types will not display correctly 
+
+<HR>
+
 09/21/2023
 <H3>TF2004 File Converter v0.6.5.2 is here</H3>
 
