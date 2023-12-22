@@ -6,15 +6,38 @@
 
 </HEAD>
 
-<BODY BGCOLOR="9794b5">
+<BODY BGCOLOR="#9794b5">
 
 <HR>
 
 <H2>Home of Transformers (2004) (PS2) Hacking Tools</H2>
 
-<P> Tools currently in development will be using this site for their automatic updates. Ideally, this site will also become a usable interface for the Leader-1 Discord bot. 
+<P> Tools currently in development will be using this site for their automatic updates. 
 
 <HR>
+
+<H3>TF2004 File Converter</H3>
+
+<P>This program converts game files from the existing proprietary formats more modern, more easily accessible file types. The end goal is to be able to turn those modern file types back into the proprietary formats to modify the game.<br>
+
+Currently supported formats are listed below. Please keep in mind that research is still ongoing; many file types will not have complete information yet.
+<ul>
+  <li>VBIN, MESH.VBIN, GRAPH.VBIN - model files, can be exported as STL or DAE.
+  <li>ITF - texture files, can be exported to most image formats. Can be exported to the original ITF format. 
+  <li>TMD/BMD, TDB/BDB - database files. Can be edited within the converter. Can be exported to the original formats.
+</ul>
+
+Unsupported formats are listed below. Most of these formats require further research before even basic converstion can be started:
+<ul>
+  <li>VAC - Sound effects. Other programs can convert these with some trial and error.
+  <li>FBX - Visual effects. 
+  <li>BT - Generic binary text files. Not missing research, just not implemented.
+  <li>COLLISIONSCENE - probably a collision scene manager. 
+  <li>ACT - No idea.
+  <li>WPB - Related to visual effect placement.
+  <li>MS - Audio files.
+  <li>TLA/TLB - Audio files. 
+</ul>
 
 Downloads:<br>
 If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-6-5-0">Download</a><br>
@@ -23,7 +46,7 @@ If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/T
 <HR>
 
 12/11/2023
-<H3>TF2004 File Converter v0.6.5.4 is here</H3>
+<H4>TF2004 File Converter v0.6.5.4 is here</H4>
 
 Fixes:
 Corrected binary output for "Link" and "LinkArray" values.
@@ -32,7 +55,7 @@ Corrected binary output for "Link" and "LinkArray" values.
 <HR>
 
 12/11/2023
-<H3>TF2004 File Converter v0.6.5.3 is here</H3>
+<H4>TF2004 File Converter v0.6.5.3 is here</H4>
 
 New Features:
 Dictionary (Definition and Database) files can now (mostly) be edited in the tree view. Enum values still have their own edit button.
@@ -46,7 +69,7 @@ Some of the "Array" types will not display correctly
 <HR>
 
 09/21/2023
-<H3>TF2004 File Converter v0.6.5.2 is here</H3>
+<H4>TF2004 File Converter v0.6.5.2 is here</H4>
 
 New Features:
 Textures now work on all Graph/Mesh.VBIN files.
@@ -58,7 +81,7 @@ The normals on all VBIN exports are almost correct, but not quite. These will ne
 <HR>
 
 09/14/2023
-<H3>TF2004 File Converter v0.6.5.1 is here</H3>
+<H4>TF2004 File Converter v0.6.5.1 is here</H4>
 
 Bugfixes:
 MESH.VBIN textures are correctly flipped like normal VBINS.
@@ -68,7 +91,7 @@ Normals for VBIN model exports should now be correct.
 <HR>
 
 09/13/2023
-<H3>TF2004 File Converter v0.6.5.0 is here</H3>
+<H4>TF2004 File Converter v0.6.5.0 is here</H4>
 
 New Feature(s):
 The program can now read and export MESH.VBIN files. Huge thanks to Discord member bbatts for solving the index array issue.
@@ -79,7 +102,7 @@ The program will attempt to assign textures based on the data in the correspondi
 <HR>
 
 09/05/2023
-<H3>TF2004 File Converter v0.6.4.2 is here</H3>
+<H4>TF2004 File Converter v0.6.4.2 is here</H4>
 
 New Feature(s):
 Some functions now have logging enabled on the right sidebar.<br>
@@ -93,7 +116,7 @@ Imported images with indexed color data/color palettes will now export at the co
 <HR>
 
 08/22/2023
-<H3>TF2004 File Converter v0.6.4.1 is here</H3>
+<H4>TF2004 File Converter v0.6.4.1 is here</H4>
 
 New Feature(s):
 Added a "clear files" option on the menu bar. This will clear out all currently loaded files.
@@ -107,28 +130,28 @@ Fixed a crash related to mipmap generation
 <HR>
 
 08/20/2023
-<H3>TF2004 File Converter v0.6.4 is here</H3>
+<H4>TF2004 File Converter v0.6.4 is here</H4>
 
 Changed the ITF system to use Qt's QImage system. This allows importing and exporting for most common image formats. With this update, there is now a complete toolchain for ITF creation. 
 
 <HR>
 
 07/15/2023
-<H3>TF2004 File Converter v0.6.3.1 is here</H3>
+<H4>TF2004 File Converter v0.6.3.1 is here</H4>
 
 Bugfix: TDB and BDB files should now load an export correctly.  
 
 <HR>
 
 06/18/2023
-<H3>TF2004 File Converter v0.6.3 is here</H3>
+<H4>TF2004 File Converter v0.6.3 is here</H4>
 
 Added auto-updating. Future versions should be downloaded from this site automatically by the program. 
 
 <HR>
 
 05/05/2023
-<H3>TF2004 File Converter v0.6.2 is here</H3>
+<H4>TF2004 File Converter v0.6.2 is here</H4>
 
 Some bugfixes for the previous version.
 Fixes:
@@ -143,7 +166,7 @@ Database files still don't work.
 <HR>
 
 05/03/2023
-<H3>TF2004 File Converter v0.6.1 is here</H3>
+<H4>TF2004 File Converter v0.6.1 is here</H4>
 
 Lots of bugfixes and a couple new features.
 
@@ -165,7 +188,7 @@ Known issues:
 <HR>
 
 04/30/2023
-<H3>TF2004 File Converter v0.6 is here</H3>
+<H4>TF2004 File Converter v0.6 is here</H4>
 
 This update brings a GUI overhaul and the ability to load multiple files at once. For now, this doesn't do much (and actually broke the only type that could load multiple before, database/definition files) but it opens the door for important features later on. The database and definition files can still be opened, but not edited or saved. 
 
@@ -176,7 +199,7 @@ Please let me know of any issues or suggestions.
 <HR>
 
 04/05/2023
-<H3>TF2004 File Converter v0.5.4.1 is here</H3>
+<H4>TF2004 File Converter v0.5.4.1 is here</H4>
 
 Bugfixes: 
 Meshes that have multiple textures should now export properly to DAE (This was done a while ago but I forgot to upload the updated build, oops)<br>
@@ -187,7 +210,7 @@ BMP files should now be correctly oriented on export. This hasn't been as thorou
 <HR>
 
 03/04/2023
-<H3>TF2004 File Converter v0.5.4 is here</H3>
+<H4>TF2004 File Converter v0.5.4 is here</H4>
 
 New features:
 Can now export VBIN models to .DAE. These DAE files will reference the appropriate textures for that model and will be properly mapped when imported to a program like Blender. <br>
@@ -205,7 +228,7 @@ Loading a VBIN file after an ITF file will leave the palette table visible.
 <HR>
 
 02/13/2023
-<H3>TF2004 File Converter v0.5.3 is here.</H3>
+<H4>TF2004 File Converter v0.5.3 is here.</H4>
 
 New features:
 Added a distance calculator for Amazon warpgates. Enter the X, Y, and Z coordinates of a position on the map and it'll tell you what the closest warpgate is.<br> 
@@ -221,7 +244,7 @@ VBIN files in the PICKUPS folder will not load
 <HR>
 
 02/05/2023
-<H3>TF2004 File Converter v0.5.2 is here.</H3>
+<H4>TF2004 File Converter v0.5.2 is here.</H4>
 
 Bugfixes: 
 LOD-less models with multiple elements now export correctly<br>
@@ -231,7 +254,7 @@ Scale offsets are now applied before rotation offsets for more accurate exports
 <HR>
 
 02/05/2023 
-<H3>TF2004 File Converter v0.5.1 is here.</H3>
+<H4>TF2004 File Converter v0.5.1 is here.</H4>
 
 Patch notes: 
 VBIN offsets are now correct. 
@@ -245,7 +268,7 @@ Models with a mesh as their root instead of a scene node wouldn't export
 <HR>
 
 02/04/2023 
-<H3>TF2004 File Converter v0.5.0 is here.</H3>
+<H4>TF2004 File Converter v0.5.0 is here.</H4>
 
 Patch notes: 
 Complete overhaul of the VBIN reading system. Read quality should be exactly the same as before, but there's a couple quality of life improvements for both coding and using:<br>
@@ -255,7 +278,7 @@ Complete overhaul of the VBIN reading system. Read quality should be exactly the
 <HR>
 
 10/16/2022 
-<H3>TF2004 File Converter v0.4.4 is here.</H3>
+<H4>TF2004 File Converter v0.4.4 is here.</H4>
 
 Patch notes: 
 Added a mode indicator and filename label. These display what the current operation mode is (Model, texture, database, etc) and the last opened file. <br>
@@ -266,7 +289,7 @@ Added a color preview to the ITF palette table<br>
 <HR>
 
 09/14/2022 
-<H3>TF2004 File Converter v0.4.3 is here.</H3>
+<H4>TF2004 File Converter v0.4.3 is here.</H4>
 
 Patch notes: 
 Can now remove classes in definition files and instances in database files. Addition of new items will be Later<br>
