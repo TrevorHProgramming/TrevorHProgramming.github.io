@@ -22,21 +22,21 @@
 
 Currently supported formats are listed below. Please keep in mind that research is still ongoing; many file types will not have complete information yet.
 <ul>
-  <li>VBIN, MESH.VBIN, GRAPH.VBIN - model files, can be exported as STL or DAE.
-  <li>ITF - texture files, can be exported to most image formats. Can be exported to the original ITF format. 
-  <li>TMD/BMD, TDB/BDB - database files. Can be edited within the converter. Can be exported to the original formats.
+  <li>VBIN, MESH.VBIN, GRAPH.VBIN - model files, can be exported as STL or DAE.</li>
+  <li>ITF - texture files, can be exported to most image formats. Can be exported to the original ITF format.</li>
+  <li>TMD/BMD, TDB/BDB - database files. Can be edited within the converter. Can be exported to the original formats.</li>
 </ul>
 
 Unsupported formats are listed below. Most of these formats require further research before even basic converstion can be started:
 <ul>
-  <li>VAC - Sound effects. Other programs can convert these with some trial and error.
-  <li>FBX - Visual effects. 
-  <li>BT - Generic binary text files. Not missing research, just not implemented.
-  <li>COLLISIONSCENE - probably a collision scene manager. 
-  <li>ACT - No idea.
-  <li>WPB - Related to visual effect placement.
-  <li>MS - Audio files.
-  <li>TLA/TLB - Audio files. 
+  <li>VAC - Sound effects. Other programs can convert these with some trial and error.</li>
+  <li>FBX - Visual effects. </li>
+  <li>BT - Generic binary text files. Not missing research, just not implemented.</li>
+  <li>COLLISIONSCENE - probably a collision scene manager. </li>
+  <li>ACT - No idea.</li>
+  <li>WPB - Related to visual effect placement.</li>
+  <li>MS - Audio files.</li>
+  <li>TLA/TLB - Audio files.</li> 
 </ul>
 
 Downloads:<br>
