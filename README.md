@@ -40,7 +40,7 @@ Unsupported formats are listed below. Most of these formats require further rese
 </ul>
 
 Downloads:<br>
-If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-6-5-0">Download</a><br>
+If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-6-5-0.7z">Download</a><br>
 If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">download the most recent version here</a><br>
 
 <HR>
