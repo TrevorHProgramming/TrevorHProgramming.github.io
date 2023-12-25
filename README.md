@@ -45,6 +45,17 @@ If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/T
 
 <HR>
 
+12/25/2023
+<H4>TF2004 File Converter v0.6.6.0 is here</H4>
+
+New features:
+Model files now export with vertex colors
+Database files can be exported to DAE to visualize object placement
+Model file heirarchy now exports correctly
+
+
+<HR>
+
 12/11/2023
 <H4>TF2004 File Converter v0.6.5.4 is here</H4>
 
