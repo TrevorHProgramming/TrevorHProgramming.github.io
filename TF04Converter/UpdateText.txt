@@ -1,0 +1,1 @@
+If you're updating from version 0.6.x.x to version 0.7.x.x, the auto-updater will not give you all the files you need. Download the most recent ZIP from https://TrevorHProgramming.github.io

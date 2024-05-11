@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transformers (2004) (PS2) Randomizer</title>
+</head>
+<body>
+
+<h1>About the Randomizer</h1>
+
+<img src="https://TrevorHProgramming.github.io/Images/RandomizerLogo.png" alt="Randomizer Logo">
+
+<h2>Introduction</h2>
+<p>The Transformers 2004 Randomizer is now a tool built in to the TF04 File Converter. As of TF04 Randomizer's version 1.0, the Randomizer will relocate all Minicons and optionally all Datacons. These collectables can be placed in any level at any location that existed in the original game (with a couple custome locations thrown in). Using user-customizable logic, you can adjust the difficulty of the Randomizer to meet your desired challenge (details on this below). For convenience, the TF04 File Converter also provides tools to unpack and repack game ISOs to make setting up the Randomizer a simple process. The Randomizer also provides an opportunity to incorporate some cut content back into the game, bringing a little extra surprise to every run.</p>
+
+<h2>Acknowledgements</h2>
+<p>Huge thanks to the Transformers (2004) (PS2) Discord mod team for brainstorming and helping to test the Randomizer during development. Additional thanks for mods Telephone and CokeMilk for their help with modified graphics, cut content curation, and other assets for the Randomizer.</p>
+
+<h2>Requirements</h2>
+<p>To use the Randomizer, you first need a legally acquired copy of the Transformers (2004) ISO. You will also need both 7Zip and ImgBurn installed on your computer. You can use the programs manually (not recommended, it's a pain), or you can set the EXE locations in the TF04 File Converter settings so it can automatically unpack and repack the game. </p>
+
+7Zip download: https://www.7-zip.org/<br><br>
+
+ImgBurn download (this is run through here to avoid adware on ImgBurn's main download - feel free to download from ImgBurn's actual website if you prefer): https://TrevorHProgramming.github.io/Randomizer/SetupImgBurn_2.5.8.0_1.exe
+
+<h2>Usage</h2>
+
+<p>Using the "Build" menu on the TF04 File Converter, select "Extract ISO". This will make all the files available for the Randomizer to use.</p> 
+
+<img src="https://TrevorHProgramming.github.io/Images/Unpack.png" alt="Build menu image">
+
+<p>Using the "Randomizer" menu, select "Load Randomizer". This will load all the needed files from the extracted ISO.</p> 
+
+<img src="https://TrevorHProgramming.github.io/Images/LoadRandom.png" alt="Load Randomizer image">
+
+<p>Once these files are loaded, the Randomizer options will appear.</p> 
+
+<img src="https://TrevorHProgramming.github.io/Images/Randomizer.png" alt="Randomizer Options image">
+
+<p>You can now adjust the settings to what you want, then hit the "Randomize" button. If the "Automatically Build" option is set the program will re-build the radomized ISO next to the extracted game path. <br><br>
+
+The settings and seed of each run can be shared with other people. If "Randomize" is clicked while the box next to it is empty, it will automatically generate a seed. Otherwise, it will use the seed that's already entered. Once the settings are adjusted, the "Export Settings" button will put the settings values in the log. If a value is entered in the box next to "Import Settings" and the button is clicked, the settings will automatically adjust to the new value. </p>
+
+<h2>Randomizer Options</h2>
+<p></p>
+
+<h3>Generate Datacons</h3>
+<p>This will determine whether datacons will be placed or not. Ideal for 100% Randomizer runs or for an experience similar to the original game.</p>
+
+<h3>Overall Difficulty</h3>
+<p>The Overall Difficulty will determine where Rangefinder and Shepherd are located. </p>
+
+<ol type="1">
+	<li>Rangefinder will be before Mid Atlantic, Shepherd will be before Alaska, and a random weapon will be available in the Amazon Basin
+	<li>Rangefinder will be before Mid Atlantic, Shepherd will be before Alaska
+	<li>Rangefinder will be before Mid Atlantic, Shepherd can be anywhere
+	<li>Rangefinder can be anywhere, Shepherd will be in Pacific Island
+	<li>Rangefinder can be anywhere, Shepherd will be in a Pacific Island bunker.
+</ol>
+
+<h3>Slipstream Difficulty</h3>
+<p>The Slipstream Difficulty will determine where Slipstream is placed. </p>
+
+<ol type="1">
+	<li>Slipstream will be before Mid Atlantic, excluding specific locations
+	<li>Slipstream will be before Mid Atlantic, excluding specific difficult to reach locations
+	<li>Slipstream will be before Mid Atlantic, excluding specific very difficult to reach locations
+	<li>Slipstream will be before Alaska's caves. Shieldwall, Hailstorm, and Comeback will be available before Mid Atlantic to allow for the gliderless launch.
+	<li>Slipstream can be anywhere except the Distant Island in Mid Atlantic, the only unreachable location.
+</ol>
+
+<h3>Highjump Difficulty</h3>
+<p>The Highjump Difficulty will determine where Highjump is placed. The early difficulties are similar to allow for balancing later.</p>
+
+<ol type="1">
+	<li>Highjump will be before Alaska's caves, excluding specific locations
+	<li>Highjump will be before Alaska's caves, excluding difficult to reach locations
+	<li>Highjump will be before Alaska's caves, excluding difficult to reach locations
+	<li>Highjump will be before Alaska's caves
+	<li>Highjump can be anywhere
+</ol>
+
+With the higher difficulties of Slipstream and Highjump logic, at least one of them will be available before Starship because of the invisible walls requiring Highjump. Starship can then be traversed normally with Highjump or with Starship Skip using Slipstream.
+
+<h3>Automatically Build</h3>
+<p>Turning on the Autobuild option will make the Randomizer copy the needed files from the unpacked, un-randomized directory and combine them with the randomized files into a full ISO. This process will automatically run 7zip and ImgBurn with the correct settings to make a playable version of the game. Below is what the ImgBurn popup should show on Autobuild.</p>
+
+<img src="https://TrevorHProgramming.github.io/Images/ImgBurnSettings.png" alt="Imgburn Settings image">
+
+<h2>Known Issues</h2>
+<p>Leaving Starship and immediately returning can cause a crash. Changing characters or going to a different level first will force the game to do a slow reload of the level and avoids the crash.</p>
+
+<h2>Troubleshooting</h2>
+<p>If you attempt to extract or build the game and a 7zip window pops up but doesn't do anything, make sure the 7zip EXE path in settings is set to 7z.exe and not any of the other 7zip executables. </p>
+
+<h2>FAQ</h2>
+<p>Q: Why is the first loading screen so slow?<br><br>
+
+A: The original .ZIP files used for the game were custom-built and optimized to be loaded by the PS2. The custom nature of these ZIP files is also why 7zip is required. Unfortunately, while 7zip is able to read these archives, it isn't able to build them in the same way. This results in a much slower initial load on the rebuilt game. Note that if you're playing on emulator, you can speed up this loading screen by disabling the framerate limit (default key should be Tab).<br><br>
+
+Q: Will you be adding enemy randomization?<br><br>
+
+A: This has been considered, and should be possible in theory. It introduces some problems that we weren't able to solve in time to release the Randomizer in time for the 20th anniversary. <br><br>
+
+Q: Are there plans to add custom textures/models (similar to other randomizers, like Super Metroid or Ocarina of Time)?<br><br>
+
+A: Not at this time, though personally I'm not writing off the posibility. Right now the focus is on the function of the randomizer. The systems in place that re-introduce cut content could be re-used for custom content if the time comes for that.</p>
+
+</body>
+</html>
