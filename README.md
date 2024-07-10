@@ -32,7 +32,7 @@ Unsupported formats are listed below. Most of these formats require further rese
   <li>VAC - Sound effects. Other programs can convert these with some trial and error.</li>
   <li>FBX - Visual effects. </li>
   <li>BT - Generic binary text files. Not missing research, just not implemented.</li>
-  <li>COLLISIONSCENE - probably a collision scene manager. </li>
+  <li>COLLISIONSCENE - probably a collision scene manager. (7/10 - some great work has been done by bbatts in the Discord. These have been mostly or entirely solved, just not incorporated into the Converter.)</li>
   <li>ACT - No idea.</li>
   <li>WPB - Related to visual effect placement.</li>
   <li>MS - Audio files.</li>
@@ -40,9 +40,21 @@ Unsupported formats are listed below. Most of these formats require further rese
 </ul>
 
 Downloads:<br>
-If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-7-0-0.7z">Download</a><br>
+If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-7-1-0.7z">Download</a><br>
 If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">download the most recent version here</a><br><br>
 For more information about the Randomizer, <a href="https://TrevorHProgramming.github.io/Randomizer.html"> check here</a><br>
+
+<HR>
+
+7/10/2024
+<H3>TF2004 File Converter v0.7.1.0 is here</H3>
+<H4>Randomizer Mod Integration</H4>
+
+New Features:
+The Randomizer can now apply mod files to the game when going through the randomizing process. 
+
+Bugfixes:
+Multiple fixes for the Database file system
 
 <HR>
 
