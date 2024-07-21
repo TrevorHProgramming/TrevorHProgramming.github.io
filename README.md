@@ -40,11 +40,22 @@ Unsupported formats are listed below. Most of these formats require further rese
 </ul>
 
 Downloads:<br>
-If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-7-1-0.7z">Download</a><br>
+If you've never downloaded the program before, download this zip for all necessary dll files: <a href="https://TrevorHProgramming.github.io/TF04Converter/TF2004FileConverter-v0-7-1-2.7z">Download</a><br>
 If you only need the newest exe, <a href="https://TrevorHProgramming.github.io/TF04Converter/VBINConverter.exe">download the most recent version here</a><br><br>
 For more information about the Randomizer, <a href="https://TrevorHProgramming.github.io/Randomizer.html"> check here</a><br>
 
 <HR>
+
+7/20/2024
+<H3>TF2004 File Converter v0.7.1.2 is here</H3>
+<H4>Dynamic Mod Loading</H4>
+
+New Features:
+The Randomizer now detects mod files in the Mods folder and automatically adds them to the available mod list. 
+Mods now have the mod description from the mod file as a tooltip on the mod list.
+
+Bugfixes:
+SELF can now correctly add multiple mods at once.
 
 7/10/2024
 <H3>TF2004 File Converter v0.7.1.0 is here</H3>
