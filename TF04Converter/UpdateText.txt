@@ -1,5 +1,6 @@
 If you're updating from version 0.6.x.x to version 0.7.1.x or above, the auto-updater will not give you all the files you need. Download the most recent ZIP from https://TrevorHProgramming.github.io
 
+Update 0.7.2.1: Bugfix for Unbalanced Team randomization that prevents negative team IDs from being assigned.
 Update 0.7.2.0: Changed the custom location and file replacement systems to work dynamically, just like the mods. New locations and file replacements can now be done easily by adding files to the Locations and Replacemetns folders. Also added additional randomizatiion options for Minicon and Autobot stats. 
 Update 0.7.1.2: Changed the mod section to work dynamically. Mod support can now be added without additional patches to the Randomizer program. This requires an update for SELF, so the most recent ZIP will again be required.
 Update 0.7.1.0: Added mod support for the Randomizer. This requires another external program, SELF.exe. If you don't have the most recent version of SELF, you'll need to get the most recent ZIP.
